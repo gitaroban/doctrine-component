@@ -1,0 +1,21 @@
+{
+    "name": "gitaroban/doctrine-component",
+    "description": "Ajout de fonctionnalites a Doctrine.",
+    "type": "library",
+    "require": {
+        "php": ">=8.0.17",
+        "doctrine/common": "^3.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gitaroban\\DoctrineComponent\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "atournayre",
+            "email": "a.tournayre@aroban.com"
+        }
+    ]
+}
